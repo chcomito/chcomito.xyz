@@ -17,7 +17,7 @@
 .title {
   font-size: 50px;
   font-family: Dancing_Script;
-  margin: 10px;
+  margin: 1em;
   padding: 10px;
   display: flex;
   justify-content: center;
@@ -76,6 +76,24 @@ p{
   .me-img {
     display: none;
   }
+}
+
+/*projects*/
+.projects{
+  margin-left: 10em;
+  margin-top: 10em;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+.project-card{
+  background: black;
+  padding: 10px;
+  border-radius: 10%;
+  box-shadow: 0px 0px 25px 0px rgb(255, 255, 255);
+  text-decoration: none;
+  max-width: 20%;
 }
 
 /* footer*/
